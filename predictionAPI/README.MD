@@ -170,7 +170,7 @@ Go to the modellinScope.json file and add your model. You have to enter the path
     "SVM": "./prediction_models/MODELY/SVMClassifier.sav"
   }
 ] 
-
-Important at the moment you can only define SDG, SVM, MLP in the files. More of them comming soon. If you have a wish for a model please open an issue and let me know. 
-
 ```
+
+
+**Important** at the moment you can only define SGD, SVM, MLP in the files. More of them comming soon. If you have a wish for a model please open an issue and let me know. 
