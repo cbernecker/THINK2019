@@ -1,0 +1,17 @@
+[
+    {
+    "ModelName": "MODEL X",
+    "ModelAlias": "MODELX",
+    "ModelDescription" : "",
+    "SGD": "./prediction_models/MODELX/SGDClassifier.sav",
+    "SVM": "./prediction_models/MODELX/SVMClassifier.sav",
+    "MLP": "./prediction_models/MODELX/MLPClassifier.h5"
+  },
+  {
+    "ModelName": "MODEL Y",
+    "ModelAlias": "MODELY",
+    "ModelDescription" : "IBM Security",
+    "SGD": "./prediction_models/MODELY/SGDClassifier.sav",
+    "SVM": "./prediction_models/MODELY/SVMClassifier.sav"
+  }
+] 

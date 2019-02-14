@@ -1,0 +1,8 @@
+---
+applications:
+ - name: PAPI-PredictionAPI
+   buildpack: https://github.com/cloudfoundry/python-buildpack
+   random-route: true
+   memory: 512M
+   instances: 2
+   disk_quota: 2048M

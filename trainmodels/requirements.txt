@@ -1,0 +1,10 @@
+Flask==0.12.2
+cf-deployment-tracker==1.0.4
+cloudant==2.4.0
+numpy==1.14.0
+scipy==1.0.0
+scikit-learn==0.19.1
+pandas==0.19.2
+nltk==3.2.2
+tensorflow==1.12.0
+Keras==2.2.4
