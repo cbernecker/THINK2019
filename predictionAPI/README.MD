@@ -149,3 +149,28 @@ You should see something linke this:
 Go to point 2 and use your public url to see how it works. 
 
 ## 5. Add your own model
+
+Go to the modellinScope.json file and add your model. You have to enter the path to the models and the ModelName and the ModelAlias. This is important because you call the model via the ModelName or ModelAlias Attribute via REST. 
+
+  ```JSON
+[
+    {
+    "ModelName": "MODEL X",
+    "ModelAlias": "MODELX",
+    "ModelDescription" : "",
+    "SGD": "./prediction_models/MODELX/SGDClassifier.sav",
+    "SVM": "./prediction_models/MODELX/SVMClassifier.sav",
+    "MLP": "./prediction_models/MODELX/MLPClassifier.h5"
+  },
+  {
+    "ModelName": "MODEL Y",
+    "ModelAlias": "MODELY",
+    "ModelDescription" : "IBM Security",
+    "SGD": "./prediction_models/MODELY/SGDClassifier.sav",
+    "SVM": "./prediction_models/MODELY/SVMClassifier.sav"
+  }
+] 
+
+Important at the moment you can only define SDG, SVM, MLP in the files. More of them comming soon. If you have a wish for a model please open an issue and let me know. 
+
+```
